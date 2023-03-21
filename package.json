@@ -2,14 +2,10 @@
   "name": "nodejs_layout",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "engines": {
-    "node": "14.x"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "build": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch"
-    
+    "build": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
