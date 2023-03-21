@@ -1,0 +1,21 @@
+body {
+    background-color: #eee;
+    font-size: 26px;
+}
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+}
+
+
+
+.layout-sidebar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+nav {
+    padding: 20px;
+    font-weight: bold;
+}

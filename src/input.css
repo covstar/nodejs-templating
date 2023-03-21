@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+header, footer {
+    @apply bg-light-teal p-5
+}
+
+main {
+    @apply bg-darker-teal text-lighter-teal p-5
+}
+
+.para {
+    @apply font-bold text-3xl
+}
+.link_div {
+    @apply mt-8
+}
+.link {
+    @apply text-grey bg-neutral-500 px-8 text-lg py-2
+}
+@tailwind utilities;
