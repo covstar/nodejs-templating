@@ -1,7 +1,6 @@
 const express = require("express");
-const expressLayouts = require("express-ejs-layouts")
-const bodyParser = require("body-parser");
-const path = require ('path');
+const expressLayouts = require("express-ejs-layouts");
+const path = require('path');
 const app = express();
 
 // static files
