@@ -9,6 +9,16 @@ main {
     @apply bg-darker-teal text-lighter-teal p-5
 }
 
+.wrapper {
+    @apply container mx-auto mt-2
+}
+.side_bar {
+    @apply font-bold px-6 text-5xl
+}
+.about_main {
+    @apply bg-dark-teal text-darker-teal
+}
+
 .para {
     @apply font-bold text-3xl
 }
@@ -16,6 +26,29 @@ main {
     @apply mt-8
 }
 .link {
-    @apply text-grey bg-neutral-500 px-8 text-lg py-2
+    @apply text-grey bg-black px-8 text-lg py-2
+}
+
+@screen sm {
+    .layout-sidebar {
+        @apply block
+    }
+    .side_bar {
+        @apply py-10% hidden
+    }
+
+    .list_items {
+        @apply block ml-4
+    }
+   
+}
+
+@screen md {
+    .navbar{
+        @apply ml-auto my-6
+    }
+    .list_items {
+        @apply flex gap-x-5
+    }
 }
 @tailwind utilities;

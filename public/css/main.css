@@ -3,8 +3,6 @@ body {
     font-size: 26px;
 }
 .wrapper {
-    width: 700px;
-    margin: 50px auto;
     background-color: #fff;
     padding: 10px;
 }
@@ -14,8 +12,4 @@ body {
 .layout-sidebar {
     display: grid;
     grid-template-columns: 2fr 1fr;
-}
-nav {
-    padding: 20px;
-    font-weight: bold;
 }

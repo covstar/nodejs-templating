@@ -13,9 +13,10 @@
 <body>
     <div class="wrapper">
         <%- include('../partials/header.ejs') %>
+        <%- include('../components/nav.ejs') %>
         <div class="layout-sidebar">
-            <main><%- body %></main>
-            <nav>Sidebar</nav>
+            <main class="about_main"><%- body %></main>
+            <div class="side_bar">Sidebar</div>
         </div>
             <%- include('../partials/footer.ejs') %>
     </div>
