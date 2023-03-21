@@ -1,12 +1,10 @@
 const express = require("express");
 const expressLayouts = require("express-ejs-layouts");
-const path = require('path');
 const app = express();
 
 // static files
-app.use(express.static('./public'))
-app.set('views', path.join(__dirname, 'views'))
-app.use('/css', express.static(__dirname + './public/css'))
+app.use(express.static('public'))
+app.use('/css', express.static(__dirname, 'public/css'))
 
 
 // set templating engine 
