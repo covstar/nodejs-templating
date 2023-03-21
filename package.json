@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "build": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch"
+    
   },
   "author": "",
   "license": "ISC",
