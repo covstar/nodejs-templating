@@ -4,9 +4,15 @@
 header, footer {
     @apply bg-light-teal p-5
 }
+body {
+    @apply bg-[#eee]
+}
 
-main {
+.home_body {
     @apply bg-darker-teal text-lighter-teal p-5
+}
+.contact_body {
+    @apply bg-emerald-300 p-5
 }
 
 .wrapper {
@@ -15,8 +21,8 @@ main {
 .side_bar {
     @apply font-bold px-6 text-5xl
 }
-.about_main {
-    @apply bg-dark-teal text-darker-teal
+.about_body {
+    @apply bg-black text-white p-5
 }
 
 .para {
@@ -29,24 +35,29 @@ main {
     @apply text-grey bg-black px-8 text-lg py-2
 }
 
+ .navbar {
+     @apply my-6 flex mx-3%
+ }
+ .logo {
+    @apply mr-auto
+ }
+
 @screen sm {
     .layout-sidebar {
         @apply block
     }
+
     .side_bar {
         @apply py-10% hidden
     }
 
     .list_items {
-        @apply block ml-4
+        @apply block 
     }
    
 }
 
 @screen md {
-    .navbar{
-        @apply ml-auto my-6
-    }
     .list_items {
         @apply flex gap-x-5
     }
